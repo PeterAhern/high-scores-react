@@ -1,0 +1,20 @@
+header.App-header {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size:xx-large;
+  text-align: center;
+  
+}
+
+.countryTable,
+th, td {
+  border: 1px solid black;
+  margin-bottom: 20px;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+
+}
+
+.tableHeading {
+    text-align: center;
+}
