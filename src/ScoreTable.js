@@ -5,7 +5,7 @@ const ScoreTable = (props) => {
   return (
     <div className="tableContainer">
       {props.data
-        .sort((a, b) => a.name > b.name)
+        .sort((a, b) => (a.name > b.name && 1) || -1)
         .map((country, index) => {
           return (
             <table className="countryTable">
